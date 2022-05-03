@@ -141,6 +141,7 @@ body{
     padding-left: 10px;
     padding-top: 2px;
 }
+
 table{
     border-collapse: collapse;
     margin: 0 auto;
@@ -152,7 +153,7 @@ table{
 
 table thead tr{
     background-color: #17C3B2;
-    color: #ffffff;
+    color: #FBFBFB;
     text-align: center;
     font-weight: bold;
     
@@ -199,7 +200,7 @@ table tbody tr:last-of-type{
     height: 80px;
     text-align: center;
     margin: 0 auto;
-    color: #ffffff;
+    color: #FBFBFB;
     border-radius: 8px;
     
   
@@ -211,11 +212,11 @@ table tbody tr:last-of-type{
     height: 80px;
     text-align: center;
     margin: 0 auto;
-    color: #ffffff;
+    color: #FBFBFB;
     border-radius: 8px;
   
 }
 .disciplinas{
     font-weight: 600;
-    font-family: Source Sans 3;
+    color: #4B4B4B;
 }
