@@ -43,6 +43,13 @@ body{
     justify-content: space-around;
 }
 
+.content{
+    font-size: 80px;
+    filter: drop-shadow(1px 1px 2px rgba(0, 0, 0, 0.1));
+    color: #17C3B2;
+    margin-left: 60px;
+}
+
 .line{
     height: 713px;
     border-right: 1px solid rgba(0, 0, 0, 0.500);
@@ -53,6 +60,7 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 24px;
+    padding-right: 40px;
 }
 
 .access-button{

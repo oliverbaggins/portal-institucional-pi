@@ -156,3 +156,81 @@ body{
     padding-left: 10px;
     padding-top: 2px;
 }
+
+table{
+    border-collapse: collapse;
+    margin: 0 auto;
+    width: 100%;
+    height: 99%;
+    
+
+}
+
+table thead tr{
+    background-color: #17C3B2;
+    color: #FBFBFB;
+    text-align: center;
+    font-weight: bold;
+    
+   
+}
+table thead tr td{
+    padding: 8px;
+}
+
+#borda1{
+    border-radius: 10px 0 0 0;
+    
+}
+#borda2{
+    border-radius: 0 10px 0 0;
+}
+#borda3{
+    border-radius: 0 0 0 10px;
+        
+}
+#borda4{
+    border-radius: 0 0 10px 0;
+}
+
+table tbody tr{
+   border-bottom: 1px solid #dddddd;
+   text-align: center;
+   height: 65px;
+}
+
+table tbody tr:nth-of-type(even){
+    background-color: #f3f3f3;
+}
+table tbody tr:last-of-type{
+    border-bottom-style: none;
+    
+}
+
+.box table tbody tr .qdAvisoP{
+    background-color: #17C3B2;
+    padding-top: 28px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FBFBFB;
+    border-radius: 8px;
+    
+  
+}
+.box table tbody tr .qdAvisoF{
+    background-color: #FE6D73;
+    padding-top: 28px;
+    width: 80px;
+    height: 80px;
+    text-align: center;
+    margin: 0 auto;
+    color: #FBFBFB;
+    border-radius: 8px;
+  
+}
+.disciplinas{
+    font-weight: 600;
+    color: #4B4B4B;
+}
