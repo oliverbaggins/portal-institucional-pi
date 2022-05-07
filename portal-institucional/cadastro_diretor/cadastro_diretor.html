@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastro de Aluno</title>
-    <link rel="stylesheet" href="cadastro_aluno.css">
+    <title>Cadastro de Professor</title>
+    <link rel="stylesheet" href="cadastro_diretor.css">
 </head>
 <body>
     <header class="main-header">
@@ -14,12 +14,12 @@
     </header>
     <div class="box">
         <main class="main-content">
-            <h1 class="cadastro-aluno">Cadastro de Aluno</h1>
+            <h1 class="cadastro-diretor">Cadastro de Diretor</h1>
             <section>
                 <form action="">
                     <div class="cadastro-boxes">
                         <label for="nome_c">Nome Completo</label>
-                        <input type="text" placeholder="Digite o nome completo do aluno" id="nome_c">
+                        <input type="text" placeholder="Digite o nome completo do diretor" id="nome_c">
                     </div>
                     <div class="gender-inputs">
                         <div class="gender-title">
@@ -59,17 +59,17 @@
                         <input type="tel" placeholder="Digite um número de celular" id="celular">
                     </div>
                     <div class="cadastro-boxes">
-                        <label for="nome_mãe">Nome da Mãe</label>
-                        <input type="text" placeholder="Digite o nome completo da mãe" id="nome_mãe">
+                        <label for="e-mail">E-mail</label>
+                        <input type="email" placeholder="Digite um e-mail" id="e-mail">
                     </div>
                     <div class="cadastro-boxes">
-                        <label for="nome_pai">Nome do Pai</label>
-                        <input type="text" placeholder="Digite o nome completo do pai" id="nome_pai">
+                        <label for="cpf">CPF</label>
+                        <input type="number" placeholder="Digite o CPF do diretor" id="cpf">
                     </div>
                 </form>
             </section>
             <section>
-                <a href="../../lista_cadastros/lista_alunos/lista_aluno.html"><button class="cadastrar-button">Cadastrar Aluno</button></a>
+                <a href="../login/login.html"><button class="cadastrar-button">Cadastrar Diretor</button></a>
             </section>
         </main>
     </div>
