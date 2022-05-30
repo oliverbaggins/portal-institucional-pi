@@ -139,7 +139,7 @@ body{
     .box{
         width: 350px;
         height: 350px;
-        margin-top: 120px;
+        margin-top: 100px;
     }
     .login{
         margin-top: 20px;
@@ -148,10 +148,12 @@ body{
     .login-boxes input{
         width: 280px;
         height: 50px;
+        margin-bottom: 10px;
     }
     .login-button{
         width: 280px;
         height: 50px;
+        margin-top: 15px;
     }
 }
 
@@ -162,12 +164,12 @@ body{
     .box{
         width: 290px;
         height: 310px;
-        margin-top: 80px;
+        margin-top: 70px;
     }
     .login{
         font-size: 25px;
         margin-top: 15px;
-        margin-right: 76px;
+        margin-right: 77px;
     }
     .login-boxes input{
         width: 250px;
