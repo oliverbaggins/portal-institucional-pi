@@ -181,7 +181,7 @@ body{
 
 .vertical-line-2{
     height: 639px;
-    margin-left: 17px;
+    margin-left: 69px;
     border-right: 1px solid rgba(0, 0, 0, 0.500);
 }
 
@@ -195,7 +195,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    margin-bottom: 40px;
+    margin-bottom: 280px;
 }
 
 .menu-item ion-icon{
