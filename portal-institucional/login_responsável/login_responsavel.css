@@ -22,18 +22,30 @@ body{
 }
 
 .large-box{
-    width: 1540px;
-    height: 40px;
+    width: 100%;
+    height: 60px;
     background-color: #17C3B2;
+    padding-top: 6px;
 }
 
-.circle{
-    position: absolute;
-    width: 27px;
-    height: 27px;
-    border-radius: 50px;
-    border: 3px solid #FBFBFB;
-    margin-left: 1470px;
+.large-box ion-icon{
+    position: relative;
+    top: 6px;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-right: 10px;
+    color: #FBFBFB;
+}
+
+.large-box a{
+    color: #FBFBFB;
+    text-decoration: none;
+    transition: 0,2s;
+    font-size: 25px;
+}
+
+a:hover{
+    opacity: 0.7;
 }
 
 .box{
@@ -105,82 +117,32 @@ body{
     cursor: pointer;
 }
 
-@media screen and (max-width: 1440px){
-    .large-box{
-        width: 1440px;
-    }
+@media screen and (max-width: 320px) {
     .box{
-        margin-top: 200px;
-    }
-}
-
-@media screen and (max-width: 1280px){
-    .large-box{
-        width: 1280px;
-    }
-    .box{
-        margin-top: 220px;
-    }
-}
-
-@media screen and (max-width: 768px){
-    .large-box{
-        width: 768px;
-    }
-    .box{
-        margin-top: 220px;
-    }
-}
-
-@media screen and (max-width: 414px){
-    .large-box{
-        width: 414px;
-    }
-    .box{
-        width: 350px;
+        margin-top: 50px;
+        width: 280px;
         height: 350px;
-        margin-top: 120px;
     }
     .login{
-        margin-top: 20px;
-        margin-right: 18px;
-    }
-    .login-boxes input{
-        width: 280px;
-        height: 50px;
-    }
-    .login-button{
-        width: 280px;
-        height: 50px;
-    }
-}
-
-@media screen and (max-width: 320px){
-    .large-box{
-        width: 414px;
-    }
-    .box{
-        width: 290px;
-        height: 310px;
-        margin-top: 80px;
-    }
-    .login{
-        font-size: 25px;
+        font-size: 20px;
         margin-top: 15px;
-        margin-right: 43px;
+        margin-left: 24px;
+        margin-bottom: 5px;
+    }
+    .login-boxes label{
+        font-size: 18px;
     }
     .login-boxes input{
-        width: 250px;
-        height: 45px;
+        width: 230px;
+        height: 50px;
+        font-size: 18px;
     }
     .login-button{
-        width: 250px;
-        height: 45px;
+        width: 230px;
+        height: 50px;
+        font-size: 25px;
     }
 }
-
-
-
 
 
 

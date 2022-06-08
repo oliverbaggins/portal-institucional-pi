@@ -11,53 +11,31 @@
     <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </head>
 <body>
-    <header class="main-header">
-        <div class="logo">
-            <img src="../img/logo.png" alt="logo">
-            <h1>School</h1>
-            <div class="vertical-line-1"></div>   
-        </div>
-        <h2>Cadastros</h2>
-        <div class="dropdown">
-            <div class="textBox">User<ion-icon name="chevron-down-outline" class="up"></ion-icon></div>
-            <div class="option">
-                <a href="../../login_diretor/login_diretor.html"><div><ion-icon name="exit-outline"></ion-icon>Sair</div></a>
-            </div>
-        </div>
+    <header>
+        <nav>
+            <a class="logo"><!--<img src="img/logo.png" alt="logo">-->School</a>
+            <ul class="nav-list">
+                <li> <a href="cadastros.html"><ion-icon name="person-add-outline"></ion-icon>Cadastros</a></li>
+                <li> <a href="../lista_cadastros/lista_cadastros.html"><ion-icon name="people-outline"></ion-icon>Listas de Cadastros</a></li>
+                <li> <a href="../disciplinas/disciplinas.html"><ion-icon name="documents-outline"></ion-icon>Disciplinas</a></li>
+                <li> <a href="../../login_diretor/login_diretor.html"><div><ion-icon name="exit-outline"></ion-icon>Sair</div></a></li>
+            </ul>
+        </nav>
     </header>
-    <div class="horizontal-line"></div>   
     <main class="main-content">
-            <!--<div class="box-content">
+        <div class="box-content">
             <div class="content-2">
-                <h2>1º Bimestre</h2>
-                <img src="img/chevron-left.svg" alt="divisa esquerda">     
-                <img src="img/chevron-right.svg" alt="divida direita">
-            </div>-->
+                <h2>Cadastros</h2>
+                <!--<img src="img/chevron-left.svg" alt="divisa esquerda">     
+                <img src="img/chevron-right.svg" alt="divida direita">-->
+            </div>
             <div class="box">
                 <div class="buttons">
-                    <a href="cadastro_professsor/cadastro_professor.html"><button class="cadastrar_p">Cadastrar Professor</button></a>
-                    <a href="cadastra_aluno/cadastro_aluno.html"><button class="cadastrar_a">Cadastrar Aluno</button></a>
+                    <a href="cadastra_aluno/cadastro_aluno.html"><button class="cadastrar_p">Cadastrar Aluno</button></a>
+                    <a href="cadastro_professsor/cadastro_professor.html"><button class="cadastrar_a">Cadastrar Professor</button></a>
                 </div>
             </div>
         </div>
-        <div class="vertical-line-2"></div>   
-        <nav class="nav-menu">
-            <div class="menu-item">
-                <a href="cadastros.html"><ion-icon name="person-add-outline"></ion-icon>Cadastros</a>
-            </div>
-            <div class="menu-item">
-                <a href="../lista_cadastros/lista_cadastros.html"><ion-icon name="people-outline"></ion-icon>Lista de Cadastros</a>
-            </div>
-            <div class="menu-item">
-                <a href="../disciplinas/disciplinas.html"><ion-icon name="documents-outline"></ion-icon>Disciplinas</a>
-            </div>
-        </nav>
     </main>
-    <script>
-        let dropdown = document.querySelector('.dropdown');
-        dropdown.onclick = function(){
-            dropdown.classList.toggle('active');
-        }
-    </script>
 </body>
 </html>

@@ -22,7 +22,7 @@ body{
 }
 
 .large-box{
-    width: 1540px;
+    width: 100%;
     height: 40px;
     background-color: #17C3B2;
 }
@@ -104,4 +104,35 @@ body{
     border: none;
     cursor: pointer;
 }
+
+@media screen and (max-width: 320px) {
+    .box{
+        margin-top: 50px;
+        width: 290px;
+        height: 350px;
+    }
+    .login{
+        font-size: 20px;
+        margin-top: 15px;
+        margin-right: 182px;
+        margin-left: 0px;
+        margin-bottom: 5px;
+    }
+    .login-boxes label{
+        font-size: 18px;
+    }
+    .login-boxes input{
+        width: 230px;
+        height: 50px;
+        font-size: 18px;
+    }
+    .login-button{
+        width: 230px;
+        height: 50px;
+        font-size: 25px;
+    }
+}
+
+
+
 
