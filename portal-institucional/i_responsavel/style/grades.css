@@ -68,11 +68,34 @@ nav{
     justify-content: space-around;
 }
 
+.box-content{
+    overflow-x: auto;
+}
+
+.box-content::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+    background-color: #f3f3f3;
+}
+.box-content::-webkit-scrollbar-button {
+    background-color: #dddddd;
+}
+.box-content::-webkit-scrollbar-track {
+    background: #f3f3f3;
+}
+.box-content::-webkit-scrollbar-track-piece {
+    background: #f3f3f3;
+}
+.box-content::-webkit-scrollbar-thumb {
+    background: #17C3B2;
+    border-radius: 5px;
+}
+
 .content-2{
     display: flex;
     align-items: flex-start;
     flex-direction: row;
-    margin-top: 55px;
+    margin-top: 30px;
     margin-left: 100px;
 }
 
@@ -98,7 +121,7 @@ nav{
 .box-content{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     padding-right: 100px;
     padding-bottom: 0px;
 }
@@ -177,7 +200,49 @@ table tbody tr:last-of-type{
     border-radius: 8px;
   
 }
+
 .disciplinas{
     font-weight: 600;
     color: #4B4B4B;
+}
+
+.mobile-menu-icon{
+    display: none;
+}
+
+.mobile-menu{
+    display: none;
+}
+
+@media screen and (max-width: 788px) {
+    .nav-list{
+        display: none;
+    }
+    .mobile-menu-icon{
+        display: block;
+    }
+    .mobile-menu-icon button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+    }
+    .mobile-menu-icon ion-icon{
+        color: #FBFBFB;
+        font-size: 30px;
+    }
+    .mobile-menu ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        background-color: #17C3B2;
+        padding-bottom: 1rem;
+    }
+    .mobile-menu li{
+        display: block;
+        padding-top: 1.2rem;
+        letter-spacing: 3px;
+    }
+    .open{
+        display: block;
+    }
 }

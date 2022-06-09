@@ -20,7 +20,18 @@
                 <li> <a href="grades_p.html"><ion-icon name="document-text-outline"></ion-icon>Notas</a></li>
                 <li> <a href="../login_professor/login_professor.html"><div><ion-icon name="exit-outline"></ion-icon>Sair</div></a></li>
             </ul>
+            <div class="mobile-menu-icon">
+                <button onclick="menuShow()"><ion-icon class="icon" name="menu-outline"></ion-icon></button>
+            </div>
         </nav>
+        <div class="mobile-menu">
+            <ul>
+                <li> <a href="frequency.html"><ion-icon name="clipboard-outline"></ion-icon>Frequência</a></li>
+                <li> <a href="activities.html"><ion-icon name="book-outline"></ion-icon>Atividades</a></li>
+                <li> <a href="grades.html"><ion-icon name="document-text-outline"></ion-icon>Notas</a></li>
+                <li> <a href="../login_responsável/login_responsavel.html"><div><ion-icon name="exit-outline"></ion-icon>Sair</div></a></li>
+            </ul>
+        </div>
     </header> 
     <div class="horizontal-line"></div>   
     <main class="main-content">
@@ -100,5 +111,17 @@
             </div>
         </div>
     </main>
+    <script>
+        function menuShow(){
+            let menuMobile = document.querySelector('.mobile-menu')
+            if (menuMobile.classList.contains('open')){
+                menuMobile.classList.remove('open');
+                document.querySelector('.icon').name = "menu-outline";
+            }else{
+                menuMobile.classList.add('open')
+                document.querySelector('.icon').name = "close-outline";
+            }
+        }
+    </script>
 </body>
 </html>

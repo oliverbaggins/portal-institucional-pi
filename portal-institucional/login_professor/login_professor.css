@@ -45,7 +45,7 @@ a:hover{
 .box{
     display: block;
     margin: 0 auto;
-    margin-top: 130px;
+    margin-top: 85px;
     width: 450px;
     height: 450px;
     background: #FBFBFB;
@@ -111,17 +111,47 @@ a:hover{
     cursor: pointer;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 460px) {
     .box{
-        margin-top: 50px;
-        width: 290px;
+        width: 350px;
         height: 350px;
+    }
+    .main-content{
+        gap: 8px;
+    }
+    .login{
+        font-size: 25px;
+        margin-top: 15px;
+        margin-right: 128px;
+        margin-bottom: 5px;
+    }
+    .login-boxes label{
+        font-size: 20px;
+    }
+    .login-boxes input{
+        width: 300px;
+        height: 50px;
+        font-size: 20px;
+    }
+    .login-button{
+        width: 300px;
+        height: 50px;
+        font-size: 25px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .box{
+        width: 280px;
+        height: 350px;
+    }
+    .main-content{
+        gap: 15px;
     }
     .login{
         font-size: 20px;
         margin-top: 15px;
-        margin-right: 94px;
-        margin-left: 0px;
+        margin-right: 95px;
         margin-bottom: 5px;
     }
     .login-boxes label{
