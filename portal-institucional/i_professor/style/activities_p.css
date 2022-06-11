@@ -152,48 +152,9 @@ nav{
 .box-content{
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 30px;
     padding-right: 100px;
     padding-bottom: 0px;
-}
-
-.vertical-line-2{
-    height: 639px;
-    margin-left: 69px;
-    border-right: 1px solid rgba(0, 0, 0, 0.500);
-}
-
-.menu-item{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-}
-
-.nav-menu{
-    display: flex;
-    flex-direction: column;
-    gap: 50px;
-    margin-bottom: 280px;
-}
-
-.menu-item ion-icon{
-    position: relative;
-    top: 4px;
-    font-size: 30px;
-    padding-right: 5px;
-}
-
-.menu-item a{
-    font-weight: 600;
-    font-size: 25px;
-    color: #4B4B4B;
-    padding-left: 10px;
-    padding-top: 2px;
-}
-
-.menu-item :hover{
-    color: #17C3B2;
-    cursor: pointer;
 }
 
 table{
@@ -258,6 +219,7 @@ table tbody tr:last-of-type{
     
   
 }
+
 .disciplinas{
     font-weight: bold;
 }
@@ -315,5 +277,8 @@ table tbody tr:last-of-type{
 @media screen and (max-width: 708px) {
     .button1{
         margin-bottom: 10px;
+    }
+    .button1, .button2{
+        width: 150px;
     }
 }

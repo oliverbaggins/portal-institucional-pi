@@ -328,4 +328,7 @@ table tbody tr:last-of-type{
     .button1{
         margin-bottom: 10px;
     }
+    .button1, .button2{
+        width: 150px;
+    }
 }
